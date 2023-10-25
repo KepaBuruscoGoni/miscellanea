@@ -64,9 +64,9 @@ def argument_parser():
     argparser.add_argument(
         '-active',
         '--active',
-        help='Is more active in the morning or in the evening? [active=evening]',
+        help='Is more active in the morning, afternoon or in the evening? [active=evening]',
         type=str,
-        choices=['morning', 'evening'],
+        choices=['morning', 'afternoon', 'evening'],
         default='evening'
     )
 
